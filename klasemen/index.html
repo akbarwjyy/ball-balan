@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Klasemen - Ball Balan</title>
+
+    <link rel="stylesheet" href="css/app.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lalezar&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar-container">
+      <div class="logo">
+        <div class="logo-gabung">
+          <img src="img/football 1.png" alt="logo" class="logo-ball" />
+          <h2 class="ball">Ball Balan</h2>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search" name="gsearch" />
+        </div>
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <li>
+            <h3><a href="../index.html">HOME</a></h3>
+          </li>
+          <li>
+            <h3><a href="../berita-terkini/index.html">BERITA TERKINI</a></h3>
+          </li>
+          <li class="dropdown">
+            <h3 class="dropbtn">
+              <a href="index.html">KLASEMEN</a>
+            </h3>
+            <div class="dropdown-content">
+              <h3>
+                <a href="klasemen-indonesia/index.html"
+                  >KLASEMEN LIGA INDONESIA</a
+                >
+              </h3>
+              <h3>
+                <a href="klasemen-malaysia/index.html"
+                  >KLASEMEN LIGA MALAYSIA</a
+                >
+              </h3>
+              <h3>
+                <a href="klasemen-thailand/index.html"
+                  >KLASEMEN LIGA THAILAND</a
+                >
+              </h3>
+            </div>
+          </li>
+          <li>
+            <h3><a href="../live-score/index.html">LIVE SCORE</a></h3>
+          </li>
+          <li>
+            <h3>
+              <a href="../hasil-pertandingan/index.html">HASIL PERTANDINGAN </a>
+            </h3>
+          </li>
+          <li>
+            <h3>
+              <a href="../pertandingan-berikutnya/index.html"
+                >PERTANDINGAN BERIKUTNYA</a
+              >
+            </h3>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- <div class="content">
+        <div class="berita1">
+          <a href="berita-terkini/berita-timnas/index.html"
+            ><img
+              src="img/Marselino 1.png"
+              alt="Marselino"
+              class="img-berita1"
+            />
+            <h3 class="text-berita1">
+              Shin Tae-yong Minta Suporter Timnas Indonesia U-23 Hibur Marselino
+              Ferdinan Lawan Guinea di Play-off Olimpiade, Isyaratkan Tahan
+              Cedera
+            </h3></a
+          >
+        </div>
+        <aside class="content-adjacent1-2">
+          <div class="content-adjacent1">
+            <a href="berita-terkini/berita-persija/index.html">
+              <img src="img/Persija 1.png" alt="Persija" class="img-berita2" />
+              <h4 class="text-berita2">
+                Alasan Fokus di Liga 1 Musim Depan, Persija Pilih Tak Ambil
+                Bagian di ASEAN Championship Club 2024/2025
+              </h4>
+              <div class="add2"></div>
+            </a>
+          </div>
+
+          <div class="content-adjacent2">
+            <a href="berita-terkini/berita-sabah/index.html">
+              <img src="img/Sabahjpg 1.png" alt="Sabah" class="img-berita3" />
+              <h4 class="text-berita3">
+                Target Sabah FC di Mini Turnamen JIS, Kalahkan Persija sama PSIS
+                dan Bawa Piala ke Malaysia
+              </h4>
+              <div class="add3"></div>
+            </a>
+          </div>
+        </aside>
+      </div> -->
+      <div class="box-klasemen">
+        <h2 class="box-title">KLASEMEN LIGA INDONESIA</h2>
+        <table class="main-table">
+          <thead>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">Pos</span
+                  ><span class="team-row-name">Team</span>
+                </div>
+              </th>
+              <th>Main</th>
+              <th>Poin</th>
+              <th>Menang</th>
+              <th>Seri</th>
+              <th>Kalah</th>
+              <th>Goal</th>
+              <th>-/+</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">1</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://upload.wikimedia.org/wikipedia/id/thumb/4/4d/Logo_Borneo_FC.svg/349px-Logo_Borneo_FC.svg.png?20210426040056"
+                          alt="Borneo FC"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Borneo FC</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">2</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://upload.wikimedia.org/wikipedia/id/thumb/1/12/Logo_Persib.png/800px-Logo_Persib.png"
+                          alt="Persib Bandung"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Persib Bandung</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">3</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYxJ2JNKB7W_8ChneVsAERXExVTACSnkqngg&s"
+                          alt="Bali United"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Bali United</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">4</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://upload.wikimedia.org/wikipedia/id/8/8a/Madura_United_FC.png"
+                          alt="Madura United"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Madura United</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">5</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://upload.wikimedia.org/wikipedia/commons/2/29/Dewa_United_Esports.png"
+                          alt="Dewa United"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Dewa United</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">6</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://upload.wikimedia.org/wikipedia/id/f/f5/PSIS_logo.svg"
+                          alt="PSIS Semarang"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">PSIS Semarang </span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">7</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://upload.wikimedia.org/wikipedia/id/thumb/d/d6/Persis_Solo_logo.svg/1200px-Persis_Solo_logo.svg.png"
+                          alt="Persis Solo"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Persis Solo</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">8</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Lambang_Persija_Jakarta.svg/1671px-Lambang_Persija_Jakarta.svg.png"
+                          alt="Persija"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Persija</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">9</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd4llq_R9NGelTkWQ6rJbPrB7F51G2MtrUBA&s"
+                          alt="Persik Kediri"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Persik Kediri</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">10</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNEuEnMLS60jNva-Ov5BT2vvZLpLvi2AvInQ&s"
+                          alt="Barito Putera"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Barito Putera</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">11</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://upload.wikimedia.org/wikipedia/id/b/b8/Logo_PSM_Makasar_Baru.png"
+                          alt="PSM Makassar"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">PSM Makassar</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">12</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://upload.wikimedia.org/wikipedia/id/a/a1/Persebaya_logo.svg"
+                          alt="Persebaya"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Persebaya</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">13</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQwqi5D7KEW3boyDUQ7dmz6aQdi5VAjmlf-g&s"
+                          alt="PSS Sleman"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">PSS Sleman</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">14</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQod1lWtIXBZlpI_TunZbkc6rcN7M24YZm9pQ&s"
+                          alt="Persita"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Persita</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">15</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf3AOHzmm8C6r3NogyL6zWE1ahDB1Ep0wlxA&s"
+                          alt="Arema FC"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Arema FC</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">16</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://upload.wikimedia.org/wikipedia/id/6/6f/RANS_Nusantara_FC_logo_baru.svg"
+                          alt="RANS Nusantara"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">RANS Nusantara</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">17</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://upload.wikimedia.org/wikipedia/id/f/f3/Logo_Bhayangkara_FC.png"
+                          alt="Bhayangkara FC"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Bhayangkara FC</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th class="team">
+                <div class="team-row">
+                  <span class="team-row-pos">18</span
+                  ><span class="team-row-name"
+                    ><a href class="cluBox">
+                      <span class="cluBox-logo"
+                        ><img
+                          src="https://upload.wikimedia.org/wikipedia/en/c/c9/Persikabo_1973_new_logo.png"
+                          alt="Persikabo 1973"
+                          width="24"
+                          height="24" /></span
+                      ><span class="clubox-name">Persikabo 1973</span></a
+                    ></span
+                  >
+                </div>
+              </th>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <footer class="footer-container">
+      <div class="footer-list">
+        <ul>
+          <li>About</li>
+          <li>Redaksi</li>
+          <li>Contact</li>
+        </ul>
+        <p class="footer-last">Copyright © 2024 Ball Balan</p>
+      </div>
+    </footer>
+  </body>
+</html>
